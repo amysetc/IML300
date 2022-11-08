@@ -1,9 +1,58 @@
 html {
-background-color: #8F8091;
-background-image: linear-gradient(to left,#8F8091, #DEAEA2);
+  background-color: #8f8091;
+  background-image: linear-gradient(to left, #8f8091, #deaea2);
 }
-h1{
-    display: block;
+body {
+  text-align: center;
+  font-family: "Archivo", sans-serif;
+}
+
+h1 {
+  font-family: "IM Fell French Canon", serif;
+  font-size: 150px;
+  color: #f5f6fb;
+  text-align: center;
+}
+h2 {
+  font-family: "IM Fell French Canon", serif;
+  font-size: 70px;
+  color: #f5f6fb;
+  text-align: left;
   margin-left: auto;
-  margin-right: auto;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  width: 400px;
+  margin: auto;
+}
+
+.item {
+  margin: auto;
+}
+
+p {
+  color: #f5f6fb;
+  font-size: 17px;
+  text-align: center;
+  position: relative;
+  top: -120px;
+  left: 20px;
+}
+a {
+  font-family: "Archivo", sans-serif;
+  color: #f5f6fb;
+  font-size: 20px;
+  color: #f5f6fb;
+}
+h3 {
+  font-family: "Archivo", sans-serif;
+  color: #f5f6fb;
+ text-align: center;
+  margin-left: auto;
+}
+footer {
+  font-family: "Archivo", sans-serif;
+  color: #f5f6fb;
 }
