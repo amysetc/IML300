@@ -21,17 +21,6 @@ h2 {
   margin-left: auto;
 }
 
-.container {
-  padding: 20px;
-  display: flex;
-  width: 400px;
-  margin: auto;
-}
-
-.item {
-  margin: auto;
-}
-
 p {
   color: #f5f6fb;
   font-size: 17px;
