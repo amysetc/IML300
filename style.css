@@ -33,7 +33,6 @@ a {
   font-family: "Archivo", sans-serif;
   color: #f5f6fb;
   font-size: 20px;
-  color: #f5f6fb;
 }
 h3 {
   font-family: "Archivo", sans-serif;
@@ -44,4 +43,7 @@ h3 {
 footer {
   font-family: "Archivo", sans-serif;
   color: #f5f6fb;
+}
+li{
+    color: #f5f6fb;
 }
