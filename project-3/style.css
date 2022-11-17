@@ -1,3 +1,7 @@
+body{
+width: 100vw;
+    height: 100vh;
+}
 .bg1 {
   background: linear-gradient(
     to right,
@@ -47,9 +51,7 @@
   position: relative;
   top: 70px;
   left: 850px;
-  font-family: "Lora", serif;
-  font-family: "Secular One", sans-serif;
-  display: grid;
+display: grid;
  grid-template-columns: 190px 190px 190px;
  justify-content: start;
 }
