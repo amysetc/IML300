@@ -1,0 +1,68 @@
+.bg1 {
+  background: linear-gradient(
+    to right,
+    #e32e25 0%,
+    #e32e25 50%,
+    #8fd3cc 50%,
+    #8fd3cc 100%
+  );
+
+  font-family: "Lora", serif;
+  font-family: "Secular One", sans-serif;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.title {
+  position: relative;
+  top: 250px;
+  color: white;
+  font-size: 70px;
+  line-height: 0.9;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.house {
+  position: relative;
+  top: -310px;
+  left: 825px;
+  width: 36.5%;
+}
+.info {
+  position: relative;
+  font-family: "Lora", serif;
+  color: white;
+  top: 400px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.img {
+  width: 135px;
+  height: 180px;
+}
+
+.grid-container {
+  position: relative;
+  top: 70px;
+  left: 850px;
+  font-family: "Lora", serif;
+  font-family: "Secular One", sans-serif;
+  display: grid;
+ grid-template-columns: 190px 190px 190px;
+ justify-content: start;
+}
+.bg2 {
+  background: linear-gradient(
+    to left,
+    #e32e25 0%,
+    #e32e25 50%,
+    #8fd3cc 50%,
+    #8fd3cc 100%
+  );
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
