@@ -3,6 +3,8 @@ width: 100vw;
     height: 100vh;
 }
 .bg1 {
+    width: 100vw;
+    height: 100vh;
   background: linear-gradient(
     to right,
     #e32e25 0%,
@@ -56,6 +58,8 @@ display: grid;
  justify-content: start;
 }
 .bg2 {
+    width: 100vw;
+    height: 100vh;
   background: linear-gradient(
     to left,
     #e32e25 0%,
