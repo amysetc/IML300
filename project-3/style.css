@@ -1,5 +1,5 @@
 body{
-width: 100vw;
+width: 100%;
 height: 100vh;
 margin-left: auto;
 margin-right: auto;
@@ -107,14 +107,51 @@ margin-bottom: -50px;
   transform: translate(-10%, -50%);
 }
 
+.title-2 {
+  overflow: visible;
+ margin-left: 60px;
+  margin-right: 60px;
+    left: 60px;
+}
+.title-3{
+    position: relative;
+ overflow: visible;
+ margin-left: 424px;
+  margin-right: 424px;
+    left:424px;
+    top: -90px;
+}
 .header{
   font-family: "Secular One", sans-serif;
     font-size: 45px;
     color: white;
     position: relative;
-left: 110px;
 }
-
+.book-cover {
+  position: relative;
+  top: -20px;
+  left: 180px;
+  width: 20%;
+}
+.sandra {
+  position: relative;
+  top: -20px;
+  left: 660px;
+  width: 20%;
+}
+.sandra {
+  position: relative;
+  top: -20px;
+  left: 660px;
+  width: 20%;
+}
+.book-info{
+position: relative;
+  color: white;
+    left: 0px;
+    text-align: center;
+    font-size: 17px;
+}
 /*
 .img {
   width: 135px;
@@ -145,4 +182,3 @@ position: relative;
   width: 20%;
   padding: 10px;
 }
-
