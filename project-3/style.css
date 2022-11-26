@@ -1,10 +1,36 @@
 body{
 width: 100vw;
-    height: 100vh;
+height: 100vh;
+margin-left: auto;
+margin-right: auto;
+margin-top: -50px;
+margin-bottom: -50px;
 }
-.bg1 {
-    width: 100vw;
-    height: 100vh;
+/*--parallax scrolling--*/
+
+.section {
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  letter-spacing: 4px;
+  overflow: visible;
+  clip: rect(0, auto, auto, 0);
+}
+
+.section .fixed {
+  overflow: visible;
+  position: fixed;
+  left: 50%;
+  right: 4%;
+  top: 30%;
+}
+
+/*--title section--*/
+
+.section:nth-child(1) {
+  top: 0;
+  z-index: 1;
   background: linear-gradient(
     to right,
     #e32e25 0%,
@@ -12,63 +38,111 @@ width: 100vw;
     #8fd3cc 50%,
     #8fd3cc 100%
   );
-
   font-family: "Lora", serif;
   font-family: "Secular One", sans-serif;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-top: -50px;
-  margin-bottom: -50px;
 }
 
+.section:nth-child(1) .fixed {
+  transform: translate(-100%, -80%);
+}
 .title {
-  position: relative;
+  text-align: left;
+  overflow: visible;
+    position: relative;
   top: 250px;
+    left: -10px;
   color: white;
   font-size: 70px;
   line-height: 0.9;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-.house {
-  position: relative;
-  top: -310px;
-  left: 825px;
-  width: 36.5%;
 }
 .info {
   position: relative;
   font-family: "Lora", serif;
   color: white;
   top: 400px;
-  margin-left: 40px;
-  margin-right: 40px;
+    left: -10px;
+    font-size: 15px;
 }
+
+.figure {
+  position: relative;
+  top: 10px;
+  left: 825px;
+  width: 37%;
+}
+.figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.figure .image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.figure:hover .image-hover {
+  opacity: 1;
+}
+
+/*--about the author/book section--*/
+
+.section:nth-child(2) {
+  top: 100vh;
+  z-index: 2;
+   background: linear-gradient(
+    to left,
+    #f4e5a5 0%,
+    #f4e5a5 50%,
+    #8fd3cc 50%,
+    #8fd3cc 100%
+  );
+}
+
+.section:nth-child(2) .fixed {
+  transform: translate(-10%, -50%);
+}
+
+.header{
+  font-family: "Secular One", sans-serif;
+    font-size: 45px;
+    color: white;
+    position: relative;
+left: 110px;
+}
+
+/*
 .img {
   width: 135px;
   height: 180px;
 }
 
 .grid-container {
-  position: relative;
-  top: 70px;
-  left: 850px;
+position: relative;
+top: 70px;
+left: 850px;
 display: grid;
- grid-template-columns: 190px 190px 190px;
- justify-content: start;
+grid-template-columns: 190px 190px 190px;
+justify-content: start;
 }
-.bg2 {
-    width: 100vw;
-    height: 100vh;
-  background: linear-gradient(
-    to left,
-    #e32e25 0%,
-    #e32e25 50%,
-    #8fd3cc 50%,
-    #8fd3cc 100%
-  );
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-top: -50px;
-  margin-bottom: -50px;
+*/
+
+{
+  box-sizing: border-box;
 }
+.row {
+  display: flex;
+}
+.column {
+position: relative;
+    top: 100px;
+    left: 770px;
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
