@@ -129,7 +129,7 @@ margin-bottom: -50px;
 }
 .book-cover {
   position: relative;
-  top: -20px;
+  top: -100px;
   left: 180px;
   width: 20%;
 }
@@ -159,15 +159,15 @@ color: white;
 .author-info{
       color: white;
 font-family: "Lora", serif;
-position: relative;
-  top:-290px;
-    left: 360px;
+position: absolute;
+  top:585px;
+    left: 727px;
     text-align: center;
     font-size: 17px;
 }
 .figure2 {
 position: absolute;
-  top: 190px;
+  top: 120px;
   left: 960px;
   width: 20%;
 }
@@ -191,42 +191,87 @@ position: absolute;
 }
 .author-info-2{
 overflow: visible;
-position: relative;
+position: absolute;
 color: white;
-    top:-270px;
-    left: 360px;
-    text-align: center;
+    top:750px;
+    left: 870px;
+    text-align: left;
     font-size: 12px;
     font-weight: 300px;
     font-family: "Lora", serif;
 }
-/*
+/*--episodes section--*/
+
+.section:nth-child(3) {
+  background: linear-gradient(
+    to right,
+    #f4e5a5 0%,
+    #f4e5a5 50%,
+   #ECAE6A 50%,
+   #ECAE6A 100%
+  );
+  top: 200vh;
+  z-index: 3;
+}
+
+.section:nth-child(3) .fixed {
+  transform: translate(-20%, -28%);
+} 
+.title-4 {
+    overflow: visible;
+    position: relative
+margin-left: 160px;
+margin-right: 160px;
+left: -550px;
+    top: -150px;
+      font-size: 17px;
+font-family: "Lora", serif;
+}
+/*--meet the interviewees section--*/
+
+.section:nth-child(4) {
+ background: #8fd3cc ;
+  top: 300vh;
+  z-index: 4;
+}
+
+.section:nth-child(4) .fixed {
+  transform: translate(-40%, -25%);
+}
+.title-6 {
+overflow: visible;
+position: absolute;
+margin-left: 160px;
+margin-right: 160px;
+left: -140px;
+top: 40px;
+font-size: 17px;
+font-family: "Lora", serif;
+line-height: 1.3;
+}
+.title-5 {
+  text-align: left;
+  overflow: visible;
+    position: relative;
+  top: 300px;
+    left: 10px;
+  color: white;
+  font-size: 70px;
+  line-height: 0.9;
+}
+
+
+
 .img {
   width: 135px;
   height: 180px;
 }
 
 .grid-container {
-position: relative;
-top: 70px;
-left: 850px;
+position: absolute;
+top: 50px;
+left: 830px;
 display: grid;
 grid-template-columns: 190px 190px 190px;
 justify-content: start;
-}
-*/
-
-{
-  box-sizing: border-box;
-}
-.row {
-  display: flex;
-}
-.column {
-position: relative;
-    top: 100px;
-    left: 770px;
-  float: left;
-  width: 20%;
-  padding: 10px;
 }
