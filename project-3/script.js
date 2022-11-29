@@ -17,6 +17,14 @@ $('document').ready(function(){
       $('#active').fadeOut(1000);
       $('#active').removeAttr('id');
     $('.bio-1').attr('id','active');
+    $('.bio-1').delay(1300);
+    $('.bio-1').fadeIn(1300);
+         })
+    
+    $('.picture-2').click(function(){
+      $('#active').fadeOut(1000);
+      $('#active').removeAttr('id');
+    $('.bio-2').attr('id','active');
     $('.bio-2').delay(1300);
     $('.bio-2').fadeIn(1300);
          })
