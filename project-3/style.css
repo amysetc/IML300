@@ -273,15 +273,9 @@ grid-template-columns: 190px 190px 190px;
 justify-content: start;
 }
 
-/*FAQ*/
+/*MUSIC*/
 .section:nth-child(5) {
-  background: linear-gradient(
-    to right,
-    #f4e5a5 0%,
-    #f4e5a5 50%,
-   #e95952 50%,
-   #e95952 100%
-  );
+  background: #ECAE6A;
   top: 400vh;
   z-index: 5;
 }
@@ -291,9 +285,34 @@ justify-content: start;
 }
 .title-7 {
   overflow: visible;
+    text-align: center;
     position: absolute;
-    left: 100px;
+    top: 10px;
+    left: 60px;
   color: white;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 0.9;
 }
+.score-info{
+overflow: visible;
+position: absolute;
+color: white;
+    top:750px;
+    left: 170px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300px;
+    font-family: "Lora", serif;
+}
+.score-info-2{
+overflow: visible;
+position: absolute;
+color: white;
+    top:20px;
+    left: 550px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300px;
+    font-family: "Lora", serif;
+}
+
