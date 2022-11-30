@@ -222,11 +222,7 @@ body {
 /*--episodes section--*/
 
 .section:nth-child(3) {
-    background: linear-gradient(to right,
-            #f4e5a5 0%,
-            #f4e5a5 50%,
-            #ECAE6A 50%,
-            #ECAE6A 100%);
+    background: #e32e25;
     top: 200vh;
     z-index: 3;
 }
@@ -238,12 +234,58 @@ body {
 .title-4 {
     overflow: visible;
     position: relative;
-    left: -39vw;
-    top: -25vh;
+    left: -1vw;
+    top: 27vh;
     font-size: 20px;
     font-family: "Lora", serif;
 }
+.header-2 {
+    font-family: "Secular One", sans-serif;
+    font-size: 20px;
+    color: white;
+    position: relative;
+}
+.button{
+  border-radius: 20px;
+  margin: 10% 10%;
+  padding: 35px;
+  width: 480px;
+  height: 15px;
+  background: #8fd3cc;
+  transition: transform 0.3s;
+  transition-timing-function: ease-in-out;
+}
 
+.button:hover{
+  background: #f4e5a5;
+  transform: translateX(20px);
+}
+
+.button-video{
+    background: #be4410;
+    margin-left: 50%;
+    width: 30%;
+    height: 40%;
+    display: none;
+}
+
+.buttonActive{
+    background: #8fd3cc;
+}
+
+.videoActive{
+    display: block;
+}
+.button-group-1{
+    position: relative;
+    left: -40vw;
+    top: 24vh;
+}
+.button-group-2{
+    position: relative;
+    left: 11vw;
+    top: -72vh;
+}
 /*--meet the interviewees section--*/
 
 .section:nth-child(4) {
@@ -325,15 +367,31 @@ body {
     word-spacing: -1px;
 
 }
-.bio-name-2{
-    position: absolute;
+.name{
+       position: absolute;
    left: 48.6vw;
 }
+.bio-pic-6 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
-/*
-MUSIC
+.bio-pic-6-1 {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.bio-pic-6-1:hover {
+    opacity: 1;
+}
+/*FAQ*/
 .section:nth-child(5) {
-    background: #ECAE6A;
+     background: linear-gradient(to left,
+           #e6443c 0%,
+           #e6443c 50%,
+             #f4e5a5 50%,
+         #f4e5a5 100%);
     top: 400vh;
     z-index: 5;
 }
@@ -343,16 +401,18 @@ MUSIC
 }
 
 .title-7 {
-    overflow: visible;
-    text-align: center;
-    position: absolute;
-    top: 10px;
-    left: 60px;
-    color: white;
-    font-size: 40px;
-    line-height: 0.9;
+    position: relative;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+    left: -6.5vw;
+    top: -3vh;
+    font-size: 41px;
+    
 }
 
+
+/*
 .score-info {
     overflow: visible;
     position: absolute;
