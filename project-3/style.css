@@ -246,6 +246,7 @@ body {
     position: relative;
 }
 .button{
+    overflow: hidden;
   border-radius: 20px;
   margin: 10% 10%;
   padding: 35px;
@@ -257,6 +258,8 @@ body {
 }
 
 .button:hover{
+     overflow: hidden;
+    
   background: #f4e5a5;
   transform: translateX(20px);
 }
@@ -388,8 +391,8 @@ body {
 /*FAQ*/
 .section:nth-child(5) {
      background: linear-gradient(to left,
-           #e6443c 0%,
-           #e6443c 50%,
+           #FF7F50 0%,
+           #FF7F50 50%,
              #f4e5a5 50%,
          #f4e5a5 100%);
     top: 400vh;
@@ -410,34 +413,32 @@ body {
     font-size: 41px;
     
 }
-
-
-/*
-.score-info {
-    overflow: visible;
-    position: absolute;
-    color: white;
-    top: 750px;
-    left: 170px;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 300px;
-    font-family: "Lora", serif;
+.button-2{
+    overflow: hidden;
+  border-radius: 20px;
+  margin: 2% 2%;
+  padding: 35px;
+  width: 540px;
+  height: 15px;
+  background:  #FF7F50;
+  transition: transform 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
-.score-info-2 {
-    overflow: visible;
-    position: absolute;
-    color: white;
-    top: 20px;
-    left: 550px;
-    text-align: left;
-    font-size: 15px;
-    font-weight: 300px;
-    font-family: "Lora", serif;
+.button-2:hover{
+     overflow: hidden;
+    
+  background: #fc3a48;
+  transform: translateX(20px);
 }
+.button-group-3{
+    position: relative;
+    top:2vh;
+}
+
+/*LAST PAGE*/
 .section:nth-child(6) {
-    background: #8fd3cc;
+    background: #DF362D;
     top: 500vh;
     z-index: 5;
 }
