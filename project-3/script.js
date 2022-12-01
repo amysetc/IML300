@@ -14,7 +14,7 @@ $('document').ready(function () {
     $('.bio-12').hide();
 
     $(".answer-1").hide();
-    $('.answer-2').hide();
+    $(".answer-2").hide();
     $('.answer-3').hide();
     $('.answer-4').hide();
     $('.answer-5').hide();
