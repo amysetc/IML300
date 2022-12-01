@@ -455,3 +455,15 @@ body {
     top: -1vh;
     left:40vw;
 }
+.set-4 {
+    overflow: visible;
+    position: absolute;
+    color: white;
+    top: 20vh;
+    left: 50vw;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300px;
+    font-family: "Lora", serif;
+
+}

@@ -13,6 +13,19 @@ $('document').ready(function () {
     $('.bio-11').hide();
     $('.bio-12').hide();
 
+    $(".answer-1").hide();
+    $('.answer-2').hide();
+    $('.answer-3').hide();
+    $('.answer-4').hide();
+    $('.answer-5').hide();
+    $('.answer-6').hide();
+    $('.answer-7').hide();
+    $('.answer-8').hide();
+    $('.answer-9').hide();
+    $('.answer-10').hide();
+    $('.answer-11').hide();
+    $('.answer-12').hide();
+    
     $('.picture-1').click(function () {
         $('#active').fadeOut(1000);
         $('#active').removeAttr('id');
@@ -77,12 +90,12 @@ $('document').ready(function () {
         $('.bio-9').delay(1300);
         $('.bio-9').fadeIn(1300);
     })
-     $('.picture-10').click(function () {
+     $('.question-1').click(function () {
         $('#active').fadeOut(1000);
         $('#active').removeAttr('id');
-        $('.bio-10').attr('id', 'active');
-        $('.bio-10').delay(1300);
-        $('.bio-10').fadeIn(1300);
+        $('.answer-1').attr('id', 'active');
+        $('.answer-1').delay(1200);
+        $('.answer-1').fadeIn(1200);
     })
 
     $('#button1').click(function () {
