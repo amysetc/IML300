@@ -289,6 +289,10 @@ body {
     left: 11vw;
     top: -72vh;
 }
+
+.popvideo{
+    display: none;
+}
 /*--meet the interviewees section--*/
 
 .section:nth-child(4) {
@@ -435,7 +439,6 @@ body {
     position: relative;
     top:2vh;
 }
-
 /*LAST PAGE*/
 .section:nth-child(6) {
     background: #DF362D;
@@ -446,4 +449,9 @@ body {
 .section:nth-child(6) .fixed {
     transform: translate(20%, -50%);
 }
-*/
+
+.title-8{
+    position: relative;
+    top: -1vh;
+    left:40vw;
+}
