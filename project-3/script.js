@@ -13,7 +13,7 @@ $('document').ready(function () {
     $('.bio-11').hide();
     $('.bio-12').hide();
 
-    $(".answer-1").hide();
+//    $(".answer-1").hide();
     $(".answer-2").hide();
     $('.answer-3').hide();
     $('.answer-4').hide();
@@ -90,14 +90,7 @@ $('document').ready(function () {
         $('.bio-9').delay(1300);
         $('.bio-9').fadeIn(1300);
     })
-     $('.question-1').click(function () {
-        $('#active').fadeOut(1000);
-        $('#active').removeAttr('id');
-        $('.answer-1').attr('id', 'active');
-        $('.answer-1').delay(1200);
-        $('.answer-1').fadeIn(1200);
-    })
-
+    
     $('#button1').click(function () {
         $('.popvideo').toggle(1000);
 //        alert('you just clicked');

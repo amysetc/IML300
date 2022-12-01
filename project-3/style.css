@@ -455,12 +455,22 @@ body {
     top: -1vh;
     left:40vw;
 }
+.title-answer {
+    position: absolute;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+    left: 45vw;
+    top: 25vh;
+    font-size: 41px;
+    
+}
 .set-4 {
     overflow: visible;
     position: absolute;
     color: white;
-    top: 20vh;
-    left: 50vw;
+    top: 35vh;
+    left: 52vw;
     text-align: left;
     font-size: 20px;
     font-weight: 300px;
