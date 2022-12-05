@@ -20,6 +20,10 @@ body {
      color: white;
     
 }
+a:link { text-decoration: none;}
+a{
+    color: white;
+}
 /*--parallax scrolling--*/
 
 .section {
@@ -250,7 +254,7 @@ body {
   border-radius: 20px;
   margin: 10% 10%;
   padding: 35px;
-  width: 480px;
+  width: 500px;
   height: 15px;
   background: #8fd3cc;
   transition: transform 0.3s;
@@ -432,7 +436,7 @@ body {
 .button-2:hover{
      overflow: hidden;
     
-  background: #fc3a48;
+  background: #DF362D;
   transform: translateX(20px);
 }
 .button-group-3{
