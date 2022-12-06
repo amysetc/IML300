@@ -107,7 +107,7 @@
     </div>
     <!--     PAGE 4 -->
     <div class="section">
-        <div id='active'>
+        <div class ="thank-u-tina" id='active'>
             <h class="title-5 header">
                 MEET THE
                 <br /> STORYTELLERS
@@ -116,6 +116,9 @@
                 <em> from teachers and students to <br />
                     artists and business owners, </em>
             </p1>
+        </div>
+        <div class = "tap-out">
+            <a> x </a>
         </div>
         <div class="bio-1">
             <h class="bio-name-1 header set">
@@ -293,7 +296,76 @@
         <h1 class="title-9 header">
             THANK YOU!
         </h1>
+        <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img  src="asset/Mural-1.JPG">
+  <div class="text">to everyone in this photo: your stories are beyond inspiring. thank you for your dedication and patience to this project.</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="asset/Mural-2.JPG">
+  <div class="text">to everyone in this photo too! it was the day after a tornado so we had to make due! </div>
+</div>
+
+<div class="mySlides fade">
+  <img src="asset/Halo-1.JPG">
+  <div class="text">to HALO at friends university: i appreciate you letting me be an honorary member of HALO, as well as constantly video recording you </div>
+</div>
+
+<div class="mySlides fade">
+  <img src="asset/Eli-Calen.JPG">
+  <div class="text">to eli and calen: thank you for validating my every concern about this project and spending time with me in elliot hall!</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="asset/Eli-Amie.JPG">
+  <div class="text">to amie: thank you for being the best assistant dp! as well as always saying hi as i stop by the gear room.</div>
+</div>
+<div class="mySlides fade">
+  <img src="asset/Jesse-Text.png">
+  <div class="text">to the most talented musician: jesse, i adore our simlilar music tastes and quick collaboration to score! sorry i couldn't get a picture of you :( </div>
+</div>
+<div class="mySlides fade">
+  <img src="asset/Jessica-1.JPG">
+  <div class="text">to my right hand (wo)man: thank you for supporting me throughout this whole process. i couldn't have done it without you, jessica </div>
+</div>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
     </div>
+    <script>
+     
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace("active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += "active";
+        }
+    </script>
+
+
 </body>
 
 </html>

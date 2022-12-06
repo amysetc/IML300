@@ -91,40 +91,57 @@ $('document').ready(function () {
         $('.bio-9').fadeIn(1300);
     })
     $(".click-1").click(function () {
+        $('#active-2').removeAttr('id');
+        $('click-1').attr('id', 'active-2');
         $('#active-1').fadeOut(1000);
         $('#active-1').removeAttr('id');
-        $('.answer-1').attr('id', 'active');
+        $('.answer-1').attr('id', 'active-1');
         $('.answer-1').delay(1300);
         $('.answer-1').fadeIn(1300);
     })
    
      $(".click-2").click(function () {
+        $('#active-2').removeAttr('id');
+        $('click-2').attr('id', 'active-2');
         $('#active-1').fadeOut(1000);
         $('#active-1').removeAttr('id');
-        $('.answer-2').attr('id', 'active');
+        $('.answer-2').attr('id', 'active-1');
         $('.answer-2').delay(1300);
         $('.answer-2').fadeIn(1300);
     })
      $(".click-3").click(function () {
+         $('#active-2').removeAttr('id');
+         $('click-2').attr('id', 'active-2');
         $('#active-1').fadeOut(1000);
         $('#active-1').removeAttr('id');
-        $('.answer-3').attr('id', 'active');
+        $('.answer-3').attr('id', 'active-1');
         $('.answer-3').delay(1300);
         $('.answer-3').fadeIn(1300);
     })
      $(".click-4").click(function () {
+         $('#active-2').removeAttr('id');
+        $('click-4').attr('id', 'active-2');
         $('#active-1').fadeOut(1000);
         $('#active-1').removeAttr('id');
-        $('.answer-4').attr('id', 'active');
+        $('.answer-4').attr('id', 'active-1');
         $('.answer-4').delay(1300);
         $('.answer-4').fadeIn(1300);
     })
      $(".click-5").click(function () {
+         $('#active-2').removeAttr('id');
+        $('click-5').attr('id', 'active-2');
         $('#active-1').fadeOut(1000);
         $('#active-1').removeAttr('id');
-        $('.answer-5').attr('id', 'active');
+        $('.answer-5').attr('id', 'active-1');
         $('.answer-5').delay(1300);
         $('.answer-5').fadeIn(1300);
     })
-   
+    
+     $('.tap-out').click(function () {
+        $('#active').fadeOut(1000);
+        $('#active').removeAttr('id');
+        $('.thank-u-tina').attr('id', 'active');
+        $('.thank-u-tina').delay(1300);
+        $('.thank-u-tina').fadeIn(1300);
+    })
 });
